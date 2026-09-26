@@ -1,0 +1,11 @@
+:root { --ground:#eef3f1; --ink:#14262a; --muted:#4f6468; --mahogany:#5a2412; --brass:#9c6d14; --lake:#1f4e79; --rule:#cfdcd8; }
+@media (prefers-color-scheme: dark) { :root { --ground:#0c1b1f; --ink:#e8efec; --muted:#9fb3b1; --mahogany:#e9b99e; --brass:#e2b54f; --rule:#23403f; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--ground); color:var(--ink); font:16px/1.6 -apple-system, "Helvetica Neue", Arial, sans-serif; padding:40px 16px 64px; }
+main { max-width:680px; margin:0 auto; }
+.eyebrow { font:600 12px/1 ui-monospace, Menlo, monospace; letter-spacing:.14em; text-transform:uppercase; color:var(--brass); }
+h1 { font:400 38px/1.1 Georgia, "Times New Roman", serif; color:var(--mahogany); margin:10px 0 6px; }
+h2 { font-size:18px; margin:32px 0 6px; }
+p, li { color:var(--ink); } .muted { color:var(--muted); }
+a { color:var(--brass); }
+nav { display:flex; gap:18px; margin:18px 0 28px; padding-bottom:14px; border-bottom:1px solid var(--rule); }
